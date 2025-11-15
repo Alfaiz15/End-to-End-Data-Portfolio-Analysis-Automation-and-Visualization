@@ -1,7 +1,7 @@
 # 🎬 Data Governance & Analytics Framework: IMDB Movie Dataset
 ## ✨ Implementasi Formula Excel/Sheets Tingkat Mahir untuk Optimalisasi Operasional
 
-**Fokus Posisi:** 💼 Data Analyst | Operations | **Tools Kunci:** ⚙️ Microsoft Excel & Google Sheets
+ **Tools Kunci:** ⚙️ Microsoft Excel & Google Sheets
 
 ### 📊 1. Ringkasan Proyek
 
@@ -35,7 +35,7 @@ Fokus pada *error handling* yang kuat, validasi rentang logis, dan kalkulasi met
 | **7** | **Validasi Lintas Kolom** | `=AND(ISNUMBER(K2), ISBLANK(J2))` | **Pengecekan Kualitas Logis:** Memastikan `Income` (K2) adalah angka **DAN** kolom *Director* (J2) tidak kosong. **Impact:** Mengidentifikasi data yang secara logis harus lengkap, namun tidak. |
 | **8** | **Kalkulasi Metrik Dasar** | `=AVERAGEIF(F:F, "USA", K:K)` | **Analisis Kinerja:** Menghitung **Rata-rata Pendapatan** (Kolom K) hanya untuk film di **"USA"** (Kolom F). **Impact:** Menyediakan **metrik kinerja regional** yang akurat dari data yang sudah diseragamkan. |
 
-#### C. Tingkat 3: Analisis Operasional & Otomasi (Advance)
+#### C. Tingkat 3: Analisis Operasional & Otomasi 
 Fokus pada *dynamic reporting*, *in-cell visualization*, dan kalkulasi berbasis waktu.
 
 | # | Pilar DQC | Rumus Excel/Sheets | Logika Profesional (Action & Impact) |
